@@ -1,5 +1,7 @@
 package controllersProxy.mobile;
 
-public abstract class ControllerProxyMobileAbstract{
+import controllers.ControllerLogin;
+
+public abstract class ControllerProxyMobileAbstract implements ControllerLogin{
 	public abstract String process();
 }
