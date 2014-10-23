@@ -7,4 +7,5 @@ public class FrontControllerProxyWeb {
     
     public void doPost(){
     }
+    
 }
