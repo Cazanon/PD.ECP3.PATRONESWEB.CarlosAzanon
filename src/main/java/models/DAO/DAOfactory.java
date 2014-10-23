@@ -1,5 +1,9 @@
 package models.DAO;
 
-public class DAOfactory {
-
+public abstract class DAOfactory {    
+    
+    public abstract UserDAO getUserDAO();
+    
+    public abstract RoundDAO getRoundDAO();
+    
 }

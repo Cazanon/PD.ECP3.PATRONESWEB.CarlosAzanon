@@ -1,5 +1,7 @@
 package models.DAO;
 
-public class UserDAO {
+import models.entities.User;
+
+public interface UserDAO extends GenericDAO<User, Integer> {
 
 }
