@@ -1,11 +1,8 @@
 package controllersProxy.mobile;
 
-public class ControllerProxyMobileMoveCard extends ControllerProxyMobileAbstract{
+import controllers.ControllerMoveCard;
 
-	@Override
-	public String process() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+public class ControllerProxyMobileMoveCard implements ControllerMoveCard {
+
 
 }

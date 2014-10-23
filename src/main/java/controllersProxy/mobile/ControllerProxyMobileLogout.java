@@ -1,11 +1,7 @@
 package controllersProxy.mobile;
 
-public class ControllerProxyMobileLogout extends ControllerProxyMobileAbstract{
+import controllers.ControllerLogout;
 
-	@Override
-	public String process() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+public class ControllerProxyMobileLogout implements ControllerLogout{
 
 }

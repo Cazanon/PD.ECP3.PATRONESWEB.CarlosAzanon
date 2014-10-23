@@ -1,11 +1,7 @@
 package controllersProxy.mobile;
 
-public class ControllerProxyMobileCreateRound extends ControllerProxyMobileAbstract{
+import controllers.ControllerCreateRound;
 
-	@Override
-	public String process() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+public class ControllerProxyMobileCreateRound implements ControllerCreateRound {
 
 }

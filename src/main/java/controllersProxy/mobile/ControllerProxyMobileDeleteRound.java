@@ -1,11 +1,7 @@
 package controllersProxy.mobile;
 
-public class ControllerProxyMobileDeleteRound extends ControllerProxyMobileAbstract{
+import controllers.ControllerDeleteRound;
 
-	@Override
-	public String process() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+public class ControllerProxyMobileDeleteRound implements ControllerDeleteRound{
 
 }
