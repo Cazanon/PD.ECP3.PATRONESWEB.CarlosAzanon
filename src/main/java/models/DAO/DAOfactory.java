@@ -1,5 +1,5 @@
 package models.DAO;
 
-public class prueba {
+public class DAOfactory {
 
 }
